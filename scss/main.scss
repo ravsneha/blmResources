@@ -1,0 +1,48 @@
+/*Variables*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+$primary-color: #FF8E99;
+$breakpoint-tablet: 768px;
+$font-stack: 'Poppins', sans-serif;
+/*Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-stack;
+}
+
+.hero {
+  h1 {
+    font-weight: bold;
+    text-align: center;
+  }
+
+}
+
+//LARGE SCREENS
+@media (min-width: $breakpoint-tablet) {
+  body {
+    background: red;
+  }
+  .hero {
+    h1 {
+      padding-top: 1rem;
+    }
+
+  }
+
+}
+
+//MOBILE SCREENS
+@media (max-width: $breakpoint-tablet) {
+  body {
+    background: blue;
+  }
+
+  .hero {
+    h1 {
+      padding-top:2rem;
+      font-size: 2rem;
+    }
+  }
+}

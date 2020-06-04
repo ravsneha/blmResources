@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o ./ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravsneha/blmResources"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravsneha/blmResources/issues"
+  },
+  "homepage": "https://github.com/ravsneha/blmResources#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
